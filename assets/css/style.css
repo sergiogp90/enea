@@ -13,6 +13,48 @@
 /* =============================================================
    GENERAL STYLES
  ============================================================ */
+ /*friki cambios*/
+ @font-face {
+ font-family: Capsuula;
+ src: url("../fonts/Capsuula.ttf");
+ }
+ @font-face {
+ font-family: Marchand;
+ src: url("../fonts/Marchand de Venise.ttf");
+ }
+ @font-face {
+ font-family: SemiCasual;
+ src: url("../fonts/SemiCasual.ttf");
+ }
+ @font-face {
+ font-family: TypoLight;
+ src: url("../fonts/Typo_Round_Light_Demo.otf");
+ }
+ @font-face {
+ font-family: TypoThin;
+ src: url("../fonts/Typo_Round_Thin_Demo.otf");
+ }
+ @font-face {
+ font-family: Winter;
+ src: url("../fonts/Winter Calligraphy.ttf");
+ }
+ @font-face {
+ font-family: BlackToBlack;
+ src: url("../fonts/BackDemo.ttf");
+ }
+ @font-face {
+ font-family: GreatDayBold;
+ src: url("../fonts/Great Day bold Personal Use.ttf");
+ }
+ @font-face {
+ font-family: GreatDay;
+ src: url("../fonts/Great Day Personal Use.ttf");
+ }
+ @font-face {
+ font-family: Angelface;
+ src: url("../fonts/Angelface.otf");
+ }
+ /*friki cambios*/
 
 body {
     font-family: 'Open Sans', sans-serif;
@@ -39,11 +81,14 @@ p {
     line-height: 30px;
     font-size: 16px;
     padding: 10px 0px 10px 0px;
+    font-family: Capsuula;
+    font-size: 25px;
 }
 
 h1 {
     font-weight: 900;
     color: rgb(255, 15, 101);
+    font-family: TypoLight;
 }
 
 .color-strip {
@@ -116,11 +161,13 @@ h1 {
     color: #fff;
 }
 
+/*friki cambios*/
 #home-sec .overlay {
-    padding-top: 100px;
+    padding-top: 50px;
     background: rgba(0, 0, 0, 0.60);
     min-height: 790px;
 }
+/*terminan los friki cambios*/
 
 #home-sec .main-img {
     max-height: 200px;
@@ -153,23 +200,29 @@ h1 {
     /*SAD IMAGE URL ON HOVER - RIGHT SIDE IMAGE*/
     cursor: pointer;
 }
-
+/*friki cambios*/
 #home-sec h1 {
     font-weight: 900;
     padding: 20px 0px 0px 0px;
+    font-family: TypoLight;
 }
 
+
 #home-sec h2 {
-    font-weight: 400;
+    font-weight: 500;
     padding: 0px 0px 30px 0px;
     color: #fff;
+    font-family: TypoThin;
+
 }
 
 #home-sec h3 {
     padding: 5px 0px;
     color: #fff;
-    font-weight: 800;
+    font-family: GreatDay;
+    font-size: 35px;
 }
+/*terminan los frikicambios*/
 
 #home-sec small {
     color: #fff;
@@ -603,35 +656,46 @@ span.round-tabs.five {
   HIRE STYLES
     ===================================*/
 
-#hire-sec {
-    padding-bottom: 40px;
-    background: rgba(0, 0, 0, 0.80);
-    min-height: 570px;
-}
+/*friki cambios*/
+    #hire-sec {
+        background: url(../img/testi.jpg) no-repeat center center;
+        padding: 0;
+        -webkit-background-size: cover;
+        background-size: cover;
+        background-attachment: fixed;
+        color: #fff;
+    }
 
-#hire-sec .overlay {
-    background: rgba(0, 0, 0, 0.80);
-    min-height: 570px;
-}
+    /*la friki a editado aquí*/
+    #hire-sec .overlay {
+        padding-bottom: 40px;
+        background: rgba(0, 0, 0, 0.80);
+        min-height: 570px;
+    }
+    /*termina la frikiedicion*/
 
-#hire-sec .form-control {
-    background-color: transparent;
-}
+    #hire-sec .form-control {
+        background-color: transparent;
+    }
+/*terminan los friki cambios*/
 
 
 /*=====================================
   FOOTER STYLES
     ===================================*/
-
+/*friki cambios*/
 #footer-sec h3 {
     margin-top: -10px;
     color: rgb(255, 15, 101);
+    font-family: TypoThin;
 }
 
 #footer-sec i {
     color: rgb(255, 15, 101);
     margin-right: 10px;
+    font-family: TypoThin;
 }
+/*terminan los friki cambios*/
 
 
 /*=====================================
@@ -832,7 +896,9 @@ p.trigger a {
     margin-bottom: 20px;
 }
 
+/*friki cambios*/
 .price {
+  text-align: center;
     list-style-type: none;
     border: 1px solid #eee;
     margin: 0;
@@ -841,7 +907,7 @@ p.trigger a {
     transition: 0.3s;
     overflow: hidden;
 }
-
+/*terminan los friki cambios*/
 .price .header {
     background-color: #111;
     color: white;
@@ -849,11 +915,15 @@ p.trigger a {
     transition: all .2s ease-in-out;
 }
 
+/*friki cambios*/
 .price li {
+    font-family: typoLight;
     border-bottom: 1px solid #eee;
-    padding: 12px;
+    padding: 17px;
     text-align: center;
+
 }
+
 
 .highlight {
     font-size: 17px;
@@ -865,14 +935,31 @@ p.trigger a {
 }
 
 .priceNormal {
-    font-size: 20px;
+
 }
 
+/*terminan los friki cambios*/
+
+/*friki cambios*/
 .green {
-    color: #53F81C;
+    color: black;
+    font-size: 24px;
+    animation-name: atencion;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+
+}
+
+@-webkit-keyframes atencion {
+    0%   {color:red; left:0px; top:0px;}
+    25%  {color:yellow; left:200px; top:0px;}
+    50%  {color:blue; left:200px; top:200px;}
+    75%  {color:green; left:0px; top:200px;}
+    100% {color:red; left:0px; top:0px;}
 }
 
 .price .grey {
+  font-family: TypoLight;
     background-color: rgb(255, 15, 101);
     font-size: 20px;
     transition: all .2s ease-in-out;
@@ -882,7 +969,8 @@ p.trigger a {
 }
 
 .button {
-    background-color: #4CAF50;
+    font-family: TypoLight;
+    background-color: #D3D3D3;
     border: none;
     color: white;
     padding: 10px 25px;
@@ -895,7 +983,9 @@ p.trigger a {
 .button:hover {
     color: #ffffff;
     text-decoration: none;
+    color:black;
 }
+/*terminan los friki cambios*/
 
 @media only screen and (max-width: 600px) {
     .columns {
@@ -982,15 +1072,42 @@ p.trigger a {
     margin: 0% 0% auto;
 }
 
+/*friki cambios*/
 figcaption .project-details {
-    font-size: 16px;
+    font-size: 19px;
+    font-weight: bold;
     line-height: 33px;
-    color: #0093d0;
+    color: black;
+    font-family: Capsuula;
     height: 27px;
     width: 85%;
     margin-bottom: 5px;
     overflow: hidden;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
 }
+figcaption .project-details:hover{
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 33px;
+    color: black;
+    font-family: Capsuula;
+    height: 27px;
+    width: 85%;
+    margin-bottom: 5px;
+    overflow: hidden;
+
+}
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example {
+    0%   {color:black; left:0px; top:0px;}
+    25%  {color:grey; left:20px; top:0px;}
+    50%  {color:black; left:20px; top:20px;}
+    75%  {color:grey; left:0px; top:20px;}
+    100% {color:black; left:0px; top:0px;}
+}
+/*terminan los friki cambios*/
 
 figcaption .project-price {
     position: absolute;
@@ -1174,16 +1291,23 @@ a.socialIcon:hover, .socialHoverClass {
 a.fondoIconos{
  background-color: #D3D3D3;
 }
+/*friki cambios*/
 
-p.emailTelefono{
-  padding: 0px;
+p.email{
+  font-family: capsuula;
+  margin-bottom: 30px;
 }
+/*terminan los friki cambios*/
 
 .direccion{
   margin-top: 15px;
 }
 
+/*friki cambios*/
 .estiloTitulo{
   margin-top: -10px;
-    color: rgb(255, 15, 101);
+  font-family: TypoThin;
+  font-size: 25px;
+  color: rgb(255, 15, 101);
 }
+/*terminan los friki cambios*/
