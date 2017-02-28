@@ -45,48 +45,113 @@
     </div>
     <!-- FIN CAMBIADOR DE IDIOMAS-->
 
-    <!-- SECCIÓN PORTADA -->
-    <div id="home-sec">
-        <div class="overlay">
-            <div class="container">
-                <div class="row pad-top-bottom move-me">
-                    <div class="col-lg-5 col-md-5 col-sm-5 text-center">
-                        <img src="assets/img/logo.png" class="main-img img-circle wow bounceIn animated" data-wow-duration="1s" data-wow-delay=".2s" alt="" />
-                        <h1 class="wow bounceIn animated" data-wow-duration="1s" data-wow-delay=".4s">ENEA</h1>
-                        <h2 class="wow bounceIn animated" data-wow-duration="1s" data-wow-delay=".6s">ASOCIACIÓN CULTURAL</h2>
-                        <a href="#about-sec" class="btn custom-btn-one btn-lg wow bounceIn animated" data-wow-duration="1s" data-wow-delay=".8s">ENEA Y REGGIO</a>
-                    </div>
-                    <div class="col-lg-2 col-md-2 col-sm-2 text-center">
-                        <a href="#about-sec" class="wow bounceIn animated" data-wow-duration="1s" data-wow-delay=".1s">
-                            <h3 class="wow bounceIn animated" data-wow-duration="1s" data-wow-delay=".2s">Proyectos</h3>
-                                <i class="fa fa-briefcase icon-round"></i>
-                        </a>
-                        <a href="#resume-sec" class="wow bounceIn animated" data-wow-duration="1s" data-wow-delay=".3s">
-                            <h3 class="wow bounceIn animated" data-wow-duration="1s" data-wow-delay=".4s">Low Cost</h3>
-                                <i class="fa fa-graduation-cap icon-round"></i>
-                        </a>
-                        <a href="#portfolio-sec" class="wow bounceIn animated" data-wow-duration="1s" data-wow-delay=".5s">
-                            <h3 class="wow bounceIn animated" data-wow-duration="1s" data-wow-delay=".6s">Galería</h3>
-                                <i class="fa fa-picture-o icon-round"></i>
-                        </a>
-                        <a href="#hire-sec" class="wow bounceIn animated" data-wow-duration="1s" data-wow-delay=".7s">
-                            <h3 class="wow bounceIn animated" data-wow-duration="1s" data-wow-delay=".8s">Contacto</h3>
-                                <i class="fa fa-envelope-o icon-round"></i>
-                        </a>
-                    </div>
-                    <div class="col-lg-5 col-md-5 col-sm-5 text-center">
-                        <img src="assets/img/calabria.png" class="main-img-2 img-circle wow bounceIn animated" data-wow-duration="1s" data-wow-delay=".2s" alt="" />
-                        <h1 class="wow bounceIn animated" data-wow-duration="1s" data-wow-delay=".4s">REGGIO DI CALABRIA</h1>
-                        <h2 class="wow bounceIn animated" data-wow-duration="1s" data-wow-delay=".6s">"L'accoglienza è il nostro modo d'essere"</h2>
-                        <a href="#resume-sec" class="btn custom-btn-one btn-lg wow bounceIn animated" data-wow-duration="1s" data-wow-delay=".8s">ERASMUS+ LEONARDO DA VINCI</a>
+    <div class="carousel fade-carousel slide" data-ride="carousel" data-interval="4000" id="home-sec">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#home-sec" data-slide-to="0" class="active"></li>
+            <li data-target="#home-sec" data-slide-to="1"></li>
+            <li data-target="#home-sec" data-slide-to="2"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+            <!-- SLIDE PORTADA -->
+            <div class="item slides active">
+                <div class="overlay">
+                    <div class="container">
+                        <div class="slide-1"></div>
+                        <div class="row pad-top-bottom move-me">
+                            <div class="col-lg-5 col-md-5 col-sm-12 text-center col-enea-logo">
+                                <img src="assets/img/logo.png" id="eneaLogo" class="main-img img-circle wow bounceIn animated" data-wow-duration="1s" data-wow-delay=".2s" alt="" />
+                                <h1 class="wow bounceIn animated" data-wow-duration="1s" data-wow-delay=".4s">ENEA</h1>
+                                <h2 class="wow bounceIn animated" data-wow-duration="1s" data-wow-delay=".6s">ASOCIACIÓN CULTURAL</h2>
+                                <a href="#about-sec" class="btn custom-btn-one btn-lg wow bounceIn animated" data-wow-duration="1s" data-wow-delay=".8s">ENEA Y REGGIO</a>
+                            </div>
+                            <div class="col-lg-2 col-md-2 col-sm-12 text-center col-menu">
+                                <a href="#about-sec" class="wow bounceIn animated" data-wow-duration="1s" data-wow-delay=".1s">
+                                    <h3 class="wow bounceIn animated" data-wow-duration="1s" data-wow-delay=".2s">Proyectos</h3>
+                                    <i class="fa fa-briefcase icon-round"></i>
+                                </a>
+                                <a href="#resume-sec" class="wow bounceIn animated" data-wow-duration="1s" data-wow-delay=".3s">
+                                    <h3 class="wow bounceIn animated" data-wow-duration="1s" data-wow-delay=".4s">Low Cost</h3>
+                                    <i class="fa fa-graduation-cap icon-round"></i>
+                                </a>
+                                <a href="#portfolio-sec" class="wow bounceIn animated" data-wow-duration="1s" data-wow-delay=".5s">
+                                    <h3 class="wow bounceIn animated" data-wow-duration="1s" data-wow-delay=".6s">Galería</h3>
+                                    <i class="fa fa-picture-o icon-round"></i>
+                                </a>
+                                <a href="#hire-sec" class="wow bounceIn animated" data-wow-duration="1s" data-wow-delay=".7s">
+                                    <h3 class="wow bounceIn animated" data-wow-duration="1s" data-wow-delay=".8s">Contacto</h3>
+                                    <i class="fa fa-envelope-o icon-round"></i>
+                                </a>
+                            </div>
+                            <div class="col-lg-5 col-md-5 col-sm-12 text-center col-reggio-logo">
+                                <img src="assets/img/calabria.png" class="main-img-2 img-circle wow bounceIn animated" data-wow-duration="1s" data-wow-delay=".2s" alt="" />
+                                <h1 class="wow bounceIn animated" data-wow-duration="1s" data-wow-delay=".4s">REGGIO DI CALABRIA</h1>
+                                <h2 class="wow bounceIn animated" data-wow-duration="1s" data-wow-delay=".6s">"L'accoglienza è il nostro modo d'essere"</h2>
+                                <a href="#resume-sec" class="btn custom-btn-one btn-lg wow bounceIn animated" data-wow-duration="1s" data-wow-delay=".8s">ERASMUS+ LEONARDO DA VINCI</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
+            <!-- FIN SLIDE PORTADA -->
+
+            <!-- SLIDE "¿SIN BECA"? -->
+            <div class="item slides">
+                <div class="overlay">
+                    <div class="container">
+                        <div class="slide-2"></div>
+                        <div class="row pad-top-bottom move-me">
+                            <div class="col-lg-6 col-md-6 col-sm-12 text-center">
+                                <h1 class="wow bounceIn animated" data-wow-duration="1s" data-wow-delay=".4s">¿SIN BECA?</h1>
+                                <img src="http://placehold.it/350x150?text=foto+sobre+beca" class="img-circle wow bounceIn animated" data-wow-duration="1s" data-wow-delay=".2s" alt="" />
+                            </div>
+
+                            <div class="col-lg-6 col-md-6 col-sm-12">
+                                <h3 class="wow bounceIn animated" data-wow-duration="1s" data-wow-delay=".6s">
+                                    No eres ni serás el primero ni el último que decide venir sin beca. Si de verdad quieres
+                                    tener una experiencia como esta encontraremos la forma de que tu presupuesto se ajuste
+                                    a ella. Mándanos un mensaje explicándonos tus límites y haremos lo posible por
+                                    ayudarte a organizar tu experiencia.
+                                </h3>
+                                <a class="btn btn-primary wow bounceIn animated" data-wow-duration="1s" data-wow-delay=".6s" href="#hire-sec">Enviar mensaje</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- FIN SLIDE "¿SIN BECA?" -->
+
+            <!-- SLIDE "¿TE GUSTA LA FOTOGRAFIA?" -->
+            <div class="item slides">
+                <div class="overlay">
+                    <div class="container">
+                        <div class="slide-3"></div>
+                        <div class="row pad-top-bottom move-me">
+                            <div class="col-lg-6 col-md-6 col-sm-12 text-center">
+                                <h1 class="wow bounceIn animated" data-wow-duration="1s" data-wow-delay=".4s">¿APASIONADO POR LA FOTOGRAFÍA?</h1>
+                                <img src="assets/img/camera.jpg" class="img-circle wow bounceIn animated camera-logo" data-wow-duration="1s" data-wow-delay=".2s" alt="" />
+                            </div>
+
+                            <div class="col-lg-6 col-md-6 col-sm-12">
+                                <h3 class="wow bounceIn animated" data-wow-duration="1s" data-wow-delay=".6s">
+                                    Buscamos a alguien que nos ayude a demostrar lo “bello” de Reggio Calabria y las
+                                    actividades que llevamos a cabo. Por ello, si tienes habilidades creación y edición de
+                                    vídeo y fotografía ponte en contacto con nosotros y te sorprenderemos con una gran
+                                    oferta.
+                                </h3>
+                                <a class="btn btn-primary wow bounceIn animated" data-wow-duration="1s" data-wow-delay=".6s" href="#hire-sec">Enviar mensaje</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- FIN SLIDE "¿TE GUSTA LA FOTOGRAFIA?" -->
         </div>
     </div>
     <!-- FIN SECCIÓN PORTADA -->
 
-    <!--friki cambios-->
     <!-- SECCIÓN ENEA -->
     <section id="about-sec">
         <div class="container">
@@ -149,7 +214,6 @@
             </div>
         </div>
     </section>
-    <!--terminan los friki cambios-->
     <!-- FIN SECCIÓN ENEA -->
 
     <!-- SECCIÓN REGGIO -->
@@ -192,25 +256,24 @@
                 </div>
             </div>
             <div id="filters" class="button-group row portfolioFilter">
-                <button class="button col-sm-4 col-md-2 col-lg-2 current" data-filter="*">Todas</button>
-                <button class="button col-sm-4 col-md-2 col-lg-2" data-filter=".infantil">Maestro/a de Infantil</button>
+                <button class="button col-sm-4 col-md-2 col-lg-2 current" data-filter=".infantil">Maestro/a de Infantil</button>
                 <button class="button col-sm-4 col-md-2 col-lg-2" data-filter=".ensenanza">Enseñanza</button>
                 <button class="button col-sm-4 col-md-2 col-lg-2" data-filter=".administracion">Administración</button>
                 <button class="button col-sm-4 col-md-2 col-lg-2" data-filter=".sanidad">Sanidad-Medicina</button>
                 <button class="button col-sm-4 col-md-2 col-lg-2" data-filter=".restauracion">Restauración</button>
+                    <button class="button col-sm-4 col-md-2 col-lg-2" data-filter=".social">Social</button>
             </div>
 
             <div class="button-group row portfolioFilter">
-                <button class="button col-sm-4 col-md-2 col-lg-2" data-filter=".social">Social</button>
                 <button class="button col-sm-4 col-md-2 col-lg-2" data-filter=".comercio">Comercio</button>
                 <button class="button col-sm-4 col-md-2 col-lg-2" data-filter=".agricultura">Agricultura</button>
                 <button class="button col-sm-4 col-md-2 col-lg-2" data-filter=".servicios">Servicios</button>
                 <button class="button col-sm-4 col-md-2 col-lg-2" data-filter=".ingenieria">Ingeniería</button>
                 <button class="button col-sm-4 col-md-2 col-lg-2" data-filter=".quimica">Química-Biologia</button>
+                <button class="button col-sm-4 col-md-2 col-lg-2" data-filter=".deportes">Actividad deportiva</button>
             </div>
 
             <div class="button-group row portfolioFilter">
-                <button class="button col-sm-4 col-md-2 col-lg-2" data-filter=".deportes">Actividad deportiva</button>
                 <button class="button col-sm-4 col-md-2 col-lg-2" data-filter=".turismo">Turismo</button>
                 <button class="button col-sm-4 col-md-2 col-lg-2" data-filter=".diseno">Gráfica, diseño y marketing</button>
             </div>
@@ -985,6 +1048,10 @@
                         La Asociación Cultural Enea es un ente de acogida al interno de varios programas de movilidad internacional, tales como Leonardo Da Vinci y el programa Erasmus Placement, presente en el territorio desde hace más de 5 años acogiendo a más de 250 chicos
                         provenientes de diferentes países de la comunidad europea.  El staff es joven y multicultural y ofrece un servicio de tutor para los participantes de las diferentes actividades.
                     </p>
+                    <a class="btn btn-success" href="#hire-sec">
+                        <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                        ¡Saber más!
+                    </a>
                 </div>
 
                 <div class="col-ms-10 col-md-3">
@@ -1067,6 +1134,7 @@
                     <div class="col-lg-12 col-md-12 col-sm-12 wow bounceIn animated pull-left" data-wow-duration="1s" data-wow-delay="1s">
                         <h1>ERASMUS+</h1>
                         <div class="color-strip"></div>
+                        <img src="assets/img/erasmus.png" id="erasmusLogo" class="wow bounceIn animated img-responsive pull-left" data-wow-duration="1s" data-wow-delay=".2s" alt="" />
                         <p>
                             Erasmus + desde el 2014 al 2020 sostendrá las actividades de movilidad y cooperación para otras 4 millones de personas… Tomar parte en el programa te ayudará a desarrollarte personal y profesionalmente; ganarás una valiosa experiencia internacional, ampliando
                             tus horizontes, conocerás culturas nuevas y descubrirás nuevas formas de trabajar.
@@ -1081,7 +1149,8 @@
                     <div class="col-lg-12 col-md-12 col-sm-12 wow bounceIn animated pull-right" data-wow-duration="1s" data-wow-delay="1s">
                         <div class="pull-right">
                             <h1>LEONARDO DA VINCI</h1>
-                            <div class="color-strip"></div>
+                            <div class="color-strip leonardoLine"></div>
+                            <img src="assets/img/leonardo.jpg" id="leonardoLogo" class="wow bounceIn animated img-responsive pull-left" data-wow-duration="1s" data-wow-delay=".2s" alt="" />
                         </div>
                         <p>
                             La Asociación Cultural Enea desarrolla su actividad principal al interno del programa de movilidad internacional Leonardo Da Vinci como ente de acogida "host organization", estructura intermediaria entre la Unión Europea y la sociedad en la cual el estudiante
@@ -1094,7 +1163,7 @@
                         <a class="trigger_reggio erasmusLink"><span class="btn">DESTINATARIOS</span></a>
 
                         <div class="col-lg-12 col-md-12 col-sm-12 wow bounceIn animated pull-right" data-wow-duration="1s" data-wow-delay="1s">
-                            <div class="toggle_container container_reggio">
+                            <div class="toggle_container container_reggio desplegableDestinatarios">
                                 <div class="block row">
                                     <div class="col-lg-6 col-md-6 col-sm-12">
                                         <div class="list-group">
@@ -1243,7 +1312,6 @@
                         </span>
                         <h4>JAVA</h4>
                     </div>-->
-                    <!--friki cambios, (solo el punto de 7.5 por una coma(porq no la coge el estílo de letra))-->
                     <div class="container col-md-9 col-xs-9 col-lg-9 col-sm-9 wow bounceIn animated pull-left" data-wow-duration="1s" data-wow-delay="1s">
                         <div class="row">
                             <div class="col-md-4 col-sm-4 col-xs-12">
@@ -1278,13 +1346,11 @@
                             </div>
                         </div>
                     </div>
-                    <!--terminan los friki cambios-->
 
                     <div class="col-lg-3 col-md-3 col-sm-3 wow bounceIn animated pull-left" data-wow-duration="1s" data-wow-delay="1s">
                         <h1>TARIFAS</h1>
                         <div class="color-strip"></div>
                         <p>
-                            Nuestros precios son muy económicos, nos encargamos del desplazamiento del alumno entre el centro y el aeropuerto.
                         </p>
                     </div>
                 </div>
@@ -1293,8 +1359,6 @@
     </section>
     <!-- SKILL SECTION END-->
 
-
-    <!--friki edicion-->
     <!-- SECCIÓN CONTACTO -->
     <section id="hire-sec">
         <div class="overlay">
@@ -1333,6 +1397,7 @@
                             </div>
                         </form>
                     </div>
+
                     <div class="col-lg-5 col-md-5 col-sm-5 col-sm-offset-1" id="footer-sec">
                         <h3><strong>¿DÓNDE ESTAMOS?</strong></h3>
 
@@ -1340,20 +1405,17 @@
                             <iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1569.313185416433!2d15.65924705812837!3d38.12562589492432!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x131450e941e5ea43%3A0x879a1ed26e9547f9!2svia+Lia%2C+89122+Reggio+Calabria+RC%2C+Italia!5e0!3m2!1ses!2sus!4v1488109668796"
                                 width="600px" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
                         </div>
-
                     </div>
+
                     <div class="col-lg-6 col-md-6 col-sm-6 col-sm-offset-4 col-xs-6 col-xs-offset-3"  id="footer-sec">
                       <p class="emailTelefono direccion"><i>DIRECCÍÓN :</i>Via Lia n°53 89122, Reggio Calabria (Italia)</p>
                       <p class="emailTelefono"><i>TELÉFONO :</i>+39 0965652286</p>
                       <p class="emailTelefono email"><i>EMAIL :</i>info@eneatraining.com</p>
                     </div>
-
                 </div>
-
             </div>
         </div>
     </section>
-    <!--termina la frikiedicion-->
     <!-- FIN SECCIÓN CONTACTO -->
 
     <div class="move-me">

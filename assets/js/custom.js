@@ -110,7 +110,7 @@
 
         var $container = $('.portfolioContainer');
         $container.isotope({
-            filter: '*',
+            filter: '.infantil',
             animationOptions: {
                 duration: 750,
                 easing: 'linear',

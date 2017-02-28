@@ -13,48 +13,55 @@
 /* =============================================================
    GENERAL STYLES
  ============================================================ */
- /*friki cambios*/
  @font-face {
  font-family: Capsuula;
  src: url("../fonts/Capsuula.ttf");
  }
+
  @font-face {
  font-family: Marchand;
  src: url("../fonts/Marchand de Venise.ttf");
  }
+
  @font-face {
  font-family: SemiCasual;
  src: url("../fonts/SemiCasual.ttf");
  }
+
  @font-face {
  font-family: TypoLight;
  src: url("../fonts/Typo_Round_Light_Demo.otf");
  }
+
  @font-face {
  font-family: TypoThin;
  src: url("../fonts/Typo_Round_Thin_Demo.otf");
  }
+
  @font-face {
  font-family: Winter;
  src: url("../fonts/Winter Calligraphy.ttf");
  }
+
  @font-face {
  font-family: BlackToBlack;
  src: url("../fonts/BackDemo.ttf");
  }
+
  @font-face {
  font-family: GreatDayBold;
  src: url("../fonts/Great Day bold Personal Use.ttf");
  }
+
  @font-face {
  font-family: GreatDay;
  src: url("../fonts/Great Day Personal Use.ttf");
  }
+
  @font-face {
  font-family: Angelface;
  src: url("../fonts/Angelface.otf");
  }
- /*friki cambios*/
 
 body {
     font-family: 'Open Sans', sans-serif;
@@ -88,7 +95,6 @@ p {
 h1 {
     font-weight: 900;
     color: rgb(255, 15, 101);
-    font-family: TypoLight;
 }
 
 .color-strip {
@@ -102,6 +108,10 @@ h1 {
     background-image: -moz-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
     background-image: -o-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
     background-image: linear-gradient(to right, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+}
+
+.leonardoLine{
+  max-width: 100%;
 }
 
 
@@ -161,13 +171,9 @@ h1 {
     color: #fff;
 }
 
-/*friki cambios*/
 #home-sec .overlay {
-    padding-top: 50px;
     background: rgba(0, 0, 0, 0.60);
-    min-height: 790px;
 }
-/*terminan los friki cambios*/
 
 #home-sec .main-img {
     max-height: 200px;
@@ -200,32 +206,33 @@ h1 {
     /*SAD IMAGE URL ON HOVER - RIGHT SIDE IMAGE*/
     cursor: pointer;
 }
-/*friki cambios*/
+
 #home-sec h1 {
     font-weight: 900;
     padding: 20px 0px 0px 0px;
     font-family: TypoLight;
 }
 
-
 #home-sec h2 {
-    font-weight: 500;
+    font-weight: 400;
     padding: 0px 0px 30px 0px;
     color: #fff;
     font-family: TypoThin;
-
 }
 
 #home-sec h3 {
     padding: 5px 0px;
     color: #fff;
     font-family: GreatDay;
-    font-size: 35px;
+    font-size: 25px;
 }
-/*terminan los frikicambios*/
 
 #home-sec small {
     color: #fff;
+}
+
+section h1{
+    font-family: TypoLight;
 }
 
 .icon-round {
@@ -656,34 +663,30 @@ span.round-tabs.five {
   HIRE STYLES
     ===================================*/
 
-/*friki cambios*/
-    #hire-sec {
-        background: url(../img/testi.jpg) no-repeat center center;
-        padding: 0;
-        -webkit-background-size: cover;
-        background-size: cover;
-        background-attachment: fixed;
-        color: #fff;
-    }
+#hire-sec {
+    background: url(../img/testi.jpg) no-repeat center center;
+    padding: 0;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+}
 
-    /*la friki a editado aquí*/
-    #hire-sec .overlay {
-        padding-bottom: 40px;
-        background: rgba(0, 0, 0, 0.80);
-        min-height: 570px;
-    }
-    /*termina la frikiedicion*/
+#hire-sec .overlay {
+    padding-bottom: 40px;
+    background: rgba(0, 0, 0, 0.80);
+    min-height: 570px;
+}
 
-    #hire-sec .form-control {
-        background-color: transparent;
-    }
-/*terminan los friki cambios*/
+#hire-sec .form-control {
+    background-color: transparent;
+}
 
 
 /*=====================================
   FOOTER STYLES
     ===================================*/
-/*friki cambios*/
+
 #footer-sec h3 {
     margin-top: -10px;
     color: rgb(255, 15, 101);
@@ -695,7 +698,6 @@ span.round-tabs.five {
     margin-right: 10px;
     font-family: TypoThin;
 }
-/*terminan los friki cambios*/
 
 
 /*=====================================
@@ -896,9 +898,8 @@ p.trigger a {
     margin-bottom: 20px;
 }
 
-/*friki cambios*/
 .price {
-  text-align: center;
+    text-align: center;
     list-style-type: none;
     border: 1px solid #eee;
     margin: 0;
@@ -907,7 +908,7 @@ p.trigger a {
     transition: 0.3s;
     overflow: hidden;
 }
-/*terminan los friki cambios*/
+
 .price .header {
     background-color: #111;
     color: white;
@@ -915,15 +916,12 @@ p.trigger a {
     transition: all .2s ease-in-out;
 }
 
-/*friki cambios*/
 .price li {
-    font-family: typoLight;
     border-bottom: 1px solid #eee;
     padding: 17px;
     text-align: center;
-
+    font-family: typoLight;
 }
-
 
 .highlight {
     font-size: 17px;
@@ -934,20 +932,12 @@ p.trigger a {
     font-size: 26px;
 }
 
-.priceNormal {
-
-}
-
-/*terminan los friki cambios*/
-
-/*friki cambios*/
 .green {
     color: black;
     font-size: 24px;
     animation-name: atencion;
     animation-duration: 4s;
     animation-iteration-count: infinite;
-
 }
 
 @-webkit-keyframes atencion {
@@ -985,7 +975,6 @@ p.trigger a {
     text-decoration: none;
     color:black;
 }
-/*terminan los friki cambios*/
 
 @media only screen and (max-width: 600px) {
     .columns {
@@ -1072,7 +1061,6 @@ p.trigger a {
     margin: 0% 0% auto;
 }
 
-/*friki cambios*/
 figcaption .project-details {
     font-size: 19px;
     font-weight: bold;
@@ -1087,6 +1075,7 @@ figcaption .project-details {
     animation-duration: 4s;
     animation-iteration-count: infinite;
 }
+
 figcaption .project-details:hover{
     font-size: 24px;
     font-weight: bold;
@@ -1097,9 +1086,8 @@ figcaption .project-details:hover{
     width: 85%;
     margin-bottom: 5px;
     overflow: hidden;
-
 }
-/* Safari 4.0 - 8.0 */
+
 @-webkit-keyframes example {
     0%   {color:black; left:0px; top:0px;}
     25%  {color:grey; left:20px; top:0px;}
@@ -1107,7 +1095,6 @@ figcaption .project-details:hover{
     75%  {color:grey; left:0px; top:20px;}
     100% {color:black; left:0px; top:0px;}
 }
-/*terminan los friki cambios*/
 
 figcaption .project-price {
     position: absolute;
@@ -1291,23 +1278,90 @@ a.socialIcon:hover, .socialHoverClass {
 a.fondoIconos{
  background-color: #D3D3D3;
 }
-/*friki cambios*/
 
 p.email{
   font-family: capsuula;
   margin-bottom: 30px;
 }
-/*terminan los friki cambios*/
 
 .direccion{
   margin-top: 15px;
 }
 
-/*friki cambios*/
 .estiloTitulo{
   margin-top: -10px;
   font-family: TypoThin;
   font-size: 25px;
   color: rgb(255, 15, 101);
 }
-/*terminan los friki cambios*/
+
+/* CARRUSEL PORTADA */
+
+/********************************/
+/*       Fade Bs-carousel       */
+/********************************/
+.fade-carousel {
+    position: relative;
+}
+
+.fade-carousel .carousel-indicators > li {
+    margin: 0 2px;
+    background-color: #f39c12;
+    border-color: #f39c12;
+    opacity: .7;
+}
+.fade-carousel .carousel-indicators > li.active {
+  width: 10px;
+  height: 10px;
+  opacity: 1;
+}
+
+/********************************/
+/*          Media Queries       */
+/********************************/
+
+@media screen and (max-width: 640px){
+    .col-enea-logo h1, .col-enea-logo h2{
+        font-size: 22px;
+    }
+
+    .col-reggio-logo{
+        margin-top: 10px;
+    }
+}
+
+@media only screen and (max-device-width: 768px) {
+    .col-menu h3{
+        display: none;
+    }
+
+    .col-menu > a{
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+}
+
+.carousel-indicators {
+    bottom: 0px;
+}
+
+.camera-logo{
+    width: 50%;
+}
+
+#erasmusLogo{
+    width: 200px;
+    margin-right: 15px;
+}
+
+.desplegableDestinatarios{
+    margin-top: 10px;
+    border-radius: 22px 22px 22px 22px;
+    -moz-border-radius: 22px 22px 22px 22px;
+    -webkit-border-radius: 22px 22px 22px 22px;
+    border: 3px solid rgb(255, 15, 101);
+}
+
+.list-group .list-group-item:nth-child(odd){
+    background-color: #DFDFDF;
+}
